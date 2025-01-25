@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+	font-family: "Poppins", serif;
+}
+
+html,
+body {
+	height: 100vh;
+	width: 100%;
+	background-image: url(https://static.vecteezy.com/system/resources/thumbnails/002/582/996/small/donation-charity-volunteer-help-social-hands-together-community-support-line-style-icon-free-vector.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	background-blend-mode: darken;
+	background-color: rgba(240, 255, 255, 0.136);
+}
+main {
+	height: 100%;
+	width: 100%;
+	justify-items: center;
+	padding: 2vh;
+}
+main form {
+	height: 100%;
+	width: 80%;
+	border: 2px solid #000000e7;
+	background-color: rgba(202, 222, 220, 0.834);
+	border-radius: 1vh;
+	padding: 2vh;
+	font-size: 2.3vh;
+	text-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
+	overflow: scroll;
+}
+
+main form::-webkit-scrollbar {
+	width: 2vh;
+}
+main form::-webkit-scrollbar-corner {
+	width: 100%;
+	height: 2vh;
+	background-color: rgba(169, 236, 236, 0.081);
+}
+main form::-webkit-scrollbar-thumb {
+	width: 2vh;
+	background-color: #11111137;
+}
+main form h1 {
+	width: 100%;
+	text-transform: capitalize;
+	font-size: 5vh;
+	margin-bottom: 3vh;
+}
+main form .contactInfo,
+main form .womenInfo {
+	width: 50%;
+	height: fit-content;
+	padding-right: 5vh;
+}
+main form .contactInfo h2,
+main form .womenInfo h2 {
+	width: 100%;
+	font-weight: 500;
+	font-size: 3.3vh;
+}
+main form .contactInfo hr,
+main form .womenInfo hr {
+	width: 100%;
+	border: 0.5px solid rgba(1, 5, 27, 0.497);
+	margin: 0.5vh 0vh;
+}
+main form .contactInfo .inputText,
+main form .womenInfo .inputText {
+	width: 30vh;
+	height: 3.3vh;
+	border-radius: 0.5vh;
+	border: 0.5px solid #1111118c;
+	padding: 1vh 1vh;
+	font-size: 2vh;
+	color: #111111c2;
+}
+main form .contactInfo span,
+main form .womenInfo span {
+	color: rgb(244, 0, 49);
+	margin-left: 0.5vh;
+	font-size: 2.6vh;
+}
+main form .contactInfo .reln,
+main form .womenInfo .reln {
+	margin-left: 3vh;
+}
+main form .womenInfo input[type="checkbox"],
+main form .womenInfo input[type="radio"] {
+	height: 2vh;
+	width: 2vh;
+}
+main form .womenInfo input[type="radio"]:checked {
+	accent-color: rgb(170, 2, 167);
+}
+main form .womenInfo input[type="checkbox"] {
+	accent-color: rgba(118, 2, 142, 0.588);
+}
+main form .womenInfo #s {
+	margin-left: 0%;
+}
+
+main form .womenInfo textarea {
+	height: 10vh;
+	width: 100%;
+	border: 0.5px solid #1111119b;
+	background-color: azure;
+	padding: 0.5vh;
+	font-size: 2vh;
+	color: #1111119d;
+	font-weight: 200;
+}
+
+::selection {
+	background-color: transparent;
+}
+main form .contactInfo {
+	height: 60%;
+	width: 50%;
+}
+
+main form .add {
+	width: 100%;
+	height: 5vh;
+	text-align: center;
+	align-content: center;
+}
+
+main form .add button {
+	background-color: aquamarine;
+	border: 0.5px solid #1111118d;
+	height: 100%;
+	width: 15vh;
+	font-size: 2.6vh;
+	font-weight: 500;
+	color: #111111d6;
+	border-radius: 0.5vh;
+}
+main form .add button:hover {
+	background-color: rgb(9, 225, 153);
+	cursor: pointer;
+}
+main form .add button abbr {
+	text-decoration: none;
+}

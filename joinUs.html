@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<!-- Font Awesome Icons -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+			integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="joinUs.css" />
+	</head>
+	<body>
+		<header>
+			<nav>
+				<a href="#" id="logo" onclick="location.reload()">
+					<img src="Logo.png" alt="" />
+					<p>SMILE Foundation</p></a
+				>
+				<input type="checkbox" id="hamburger" />
+				<label for="hamburger">
+					<i class="fa-solid fa-bars"></i>
+				</label>
+				<ul>
+					<li>
+						<a href="#" class="active" onclick="location.reload()">Home</a>
+					</li>
+					<li>
+						<a href="aboutUs.html">Who are we ?</a>
+					</li>
+					<li>
+						<a href="#features">Our Works</a>
+					</li>
+					<li>
+						<a href="#services">donate</a>
+					</li>
+					<li>
+						<a href="joinUs.html">Join Us</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<!--Choice section-->
+			<section class="part" id="choose">
+				<div id="choice">
+					<h3>What do you want to Log In as?</h3>
+					<br />
+					<span>
+						<a href="#"><button id="btn-admin">ADMIN</button></a>
+						OR
+						<a href="#"><button id="btn-user">USER</button></a>
+					</span>
+				</div>
+			</section>
+
+			<!--Log IN section-->
+			<section class="sec" id="sec1">
+				<div class="tab">
+					<form>
+						<h2>Login</h2>
+						<br />
+						<input
+							type="text"
+							class="input"
+							id="login-Name"
+							name="uname"
+							placeholder="Username"
+							required
+						/><br /><br />
+						<input
+							type="password"
+							class="input"
+							id="Password"
+							name="password"
+							placeholder="Password"
+							required
+						/><br /><br />
+						<a href="#">Forgot password?</a>
+						<br /><br />
+						<input
+							type="Submit"
+							class="button"
+							id="login-submit"
+							value="Log In"
+						/>
+						<br /><br />
+						<p>
+							Don't have an account?<a href="#" id="register-link">Register</a>
+						</p>
+					</form>
+				</div>
+			</section>
+
+			<!--Sign Up section-->
+			<section class="sec" id="sec2">
+				<div class="tab">
+					<form>
+						<h2>Sign Up</h2>
+						<br />
+						<input
+							type="text"
+							class="input"
+							id="signup-Name"
+							name="umane"
+							placeholder="Username"
+							required
+						/><br /><br />
+						<input
+							type="email"
+							class="input"
+							id="mail"
+							name="email"
+							placeholder="Email"
+							required
+						/><br /><br />
+						<input
+							type="password"
+							class="input"
+							id="signup-Password"
+							name="password"
+							placeholder="Password"
+							required
+						/><br /><br />
+						<input
+							type="password"
+							class="input"
+							id="Re-type Password"
+							name="signup-retype-password"
+							placeholder=" Confirm Password"
+							required
+						/><br /><br />
+						<input
+							type="Submit"
+							id="signup-button"
+							class="button"
+							value="Sign Up"
+						/>
+						<br /><br />
+						<p>Already a member?<a id="login-link" href="#">Login</a></p>
+					</form>
+				</div>
+			</section>
+
+			<!--Admin section-->
+			<section class="sec" id="sec3">
+				<div class="tab">
+					<form>
+						<h2>ADMIN LOGIN</h2>
+						<br />
+						<input
+							type="text"
+							class="input"
+							id="admin-Name"
+							name="umane"
+							placeholder="Username"
+							required
+						/><br /><br />
+						<input
+							type="password"
+							class="input"
+							id="admin-Password"
+							name="password"
+							placeholder="Password"
+							required
+						/><br /><br />
+						<a href="#">Forgot password?</a>
+						<br /><br />
+						<input
+							type="Submit"
+							class="button"
+							id="admin-button"
+							value="Log In"
+						/>
+					</form>
+				</div>
+			</section>
+		</main>
+
+		<script src="joinUs.js"></script>
+	</body>
+</html>
