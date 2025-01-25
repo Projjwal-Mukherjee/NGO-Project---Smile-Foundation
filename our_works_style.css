@@ -1,0 +1,411 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	overflow-x:hidden;
+}
+.our_works_main {
+	width: 100vw;
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 5rem;
+}
+.our_works_main .heading {
+	height: 15vh;
+	width: 90vw;
+	background-color: rgb(255, 255, 255);
+	text-decoration: underline;
+	text-align: center;
+	/* font-size: 2.4rem; */
+	font-size: 4vmin;
+	color: rgb(57, 30, 30);
+	background-color: rgb(237, 133, 47);
+}
+.our_works_main .heading h1 {
+	font-family: "Oswald", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 800;
+	font-style: normal;
+}
+.works_details_box {
+	/* height: 100vh; */
+	width: 100vw;
+	background-color: rgb(255, 255, 255);
+	 overflow: hidden; 
+	margin-top: 0px;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+.works_details_box .box {
+	height: 40vh;
+	width: 100vw;
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-evenly;
+}
+.works_details_box .box p {
+	height: 38vh;
+	width: 50vw;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	font-size: 3.5vmin;
+}
+.works_details_box .detail_heading {
+	height: 40vh;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgb(244, 232, 255);
+}
+.works_details_box .detail_heading p {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+.works_details_box .detail_heading h2 {
+	font-family: "Oswald", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 800;
+	font-style: normal;
+}
+.works_details_box .detail_heading h2 {
+	font-size: 2.4rem;
+	/* font-size: 3vmin; */
+	font-weight: 700;
+	position: relative;
+	/* top: 50px; */
+	top: 1vh;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#education {
+	flex-direction: row;
+}
+#Women_empowerment {
+	flex-direction: row;
+}
+#ambulance {
+	flex-direction: row;
+}
+#privillage_children {
+	flex-direction: row;
+}
+.image_box {
+	height: 40vh;
+	width: 35vw;
+	background-color: black;
+}
+.works_details_box #imageone {
+	background-image: url("Images/education.jpg");
+	background-size: cover;
+	transition: width 1s, height 2s, transform 1s;
+	animation-name: exampleone;
+	animation-duration: 25s;
+	animation-iteration-count: infinite;
+}
+.works_details_box #imageone:hover {
+	width: 34vw;
+	height: 40vh;
+}
+.works_details_box #imagetwo {
+	background-image: url("Images/health\ care.jpeg");
+	background-size: cover;
+	transition: width 1s, height 2s, transform 1s;
+	animation-name: exampletwo;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+}
+.works_details_box #imagetwo:hover {
+	width: 34vw;
+	height: 40vh;
+}
+.works_details_box #imagethree {
+	background-image: url("Images/women\ empowerment.jpg");
+	background-size: cover;
+	transition: width 1s, height 2s, transform 1s;
+	animation-name: examplethree;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+}
+.works_details_box #imagethree:hover {
+	width: 34vw;
+	height: 40vh;
+}
+.works_details_box #imagefour {
+	background-image: url("Images/food\ waste\ management.jpg");
+	background-size: cover;
+	transition: width 1s, height 2s, transform 1s;
+	animation-name: examplefour;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+}
+.works_details_box #imagefour:hover {
+	width: 34vw;
+	height: 40vh;
+}
+.works_details_box #imagefive {
+	background-image: url("Images/ambulance.jpeg");
+	background-size: cover;
+	transition: width 1s, height 2s, transform 1s;
+	animation-name: examplefive;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+}
+.works_details_box #imagefive:hover {
+	width: 34vw;
+	height: 40vh;
+}
+.works_details_box #imagesix {
+	background-image: url("Images/disaster.jpeg");
+	background-size: cover;
+	transition: width 1s, height 2s, transform 1s;
+	animation-name: examplesix;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+}
+.works_details_box #imagesix:hover {
+	width: 34vw;
+	height: 40vh;
+}
+.works_details_box #imageseven {
+	background-image: url("Images/privilaged.jpeg");
+	background-size: cover;
+	transition: width 1s, height 2s, transform 1s;
+	/* transition: width 1s, height 2s, transform 1s; */
+	animation-name: exampleseven;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+}
+.works_details_box #imageseven:hover {
+	width: 34vw;
+	height: 40vh;
+}
+/* Set Animations */
+@keyframes exampleone {
+	0% {
+		background-image: url(https://thumbs.dreamstime.com/b/rural-education-program-outdoors-teaching-children-areas-isolated-villages-assam-india-classroom-50691803.jpg);
+		background-size: cover;
+	}
+	25% {
+		background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOst0nUBb6GR8oGLFgL_ex9lscnOAYMReSYA&s);
+		background-size: cover;
+	}
+	50% {
+		background-image: url(https://thumbs.dreamstime.com/b/ngo-hiv-children-kolkata-based-has-developed-complete-network-services-designed-to-integrate-living-aids-65395259.jpg);
+		background-size: cover;
+	}
+	75% {
+		background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLwgaMY7ls4KgsQRfg0THNs-skvPKzPB4PkOF61nHEJ98kGQnZkEI_rYjAS9SbntSVxKU&usqp=CAU);
+		background-size: cover;
+	}
+	100% {
+		background-image: url(https://miro.medium.com/v2/resize:fit:1170/1*Nl2FoijhiGoHoG7lT5iNLw@2x.jpeg);
+		background-size: cover;
+	}
+}
+@keyframes exampletwo {
+	0% {
+		background-image: url(https://thumbs.dreamstime.com/b/doctor-consulting-patrient-medical-note-india-agra-july-unidentified-action-also-part-pushpanjali-fair-trade-39631891.jpg);
+		background-size: cover;
+	}
+	25% {
+		background-image: url(https://thumbs.dreamstime.com/b/ngo-activity-doctor-examine-child-health-clinic-center-which-organized-half-india-s-children-under-age-63979746.jpg);
+		background-size: cover;
+	}
+	50% {
+		background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTet8_phcQRX6GvDsL5eQjYPLU58XZsPZ-68J0WLD5-tdq1Btk84wrNVDmfpzoRyTrDeqc&usqp=CAU);
+		background-size: cover;
+	}
+	75% {
+		background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrup5rP-p3xfYuOHvv8nMaFjrpovKcBvM5qu-AddLNd-h7ZftDLypqDS83s5UQ5Ep-vj4&usqp=CAU);
+		background-size: cover;
+	}
+	100% {
+		background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJKm1CF67WjKBEjXM2Wij-0e_nPrIqRvXLg&s);
+		background-size: cover;
+	}
+}
+@keyframes examplethree {
+	0% {
+		background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLZTY64AWpsF9pLkrtlFvckoyhJotDlpFJKQ&s);
+		background-size: cover;
+	}
+	25% {
+		background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8PnuiwGPI7HZekcGgfUn68jXijk25maKRcA&s);
+		background-size: cover;
+	}
+	50% {
+		background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo3WChgjsH_Av7ZHQ7tocROUFPgLpLYY4GXYzhrzldCGFWy0Ty7u-nbuj9MjdNDocgYZo&usqp=CAU);
+		background-size: cover;
+	}
+	75% {
+		background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlnJQLcUvWzo0KbSX4N25jFtt4_To504-2tpqXn_-sz1faHZ2DT_A8ij0otDkflJ2lvMM&usqp=CAU);
+		background-size: cover;
+	}
+	100% {
+		background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW9IIsbbgDz289GQlAV89FWgp9lGfTbMqY-jFAC9_6LKXUR4vzpnyLIwLP7NtCGLc44IE&usqp=CAU);
+		background-size: cover;
+	}
+}
+@keyframes examplefour {
+	0% {
+		background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjS-sfalS6IzvbhhMBgLQPQoJhm6gB8lfkXQ&s);
+		background-size: cover;
+	}
+	25% {
+		background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZtm4WkAnTB0Whmqq01nqbWIu6th0N3AmKtqJeXQakgZe-z_qqkTGJG614-FrHudiRb4U&usqp=CAU);
+		background-size: cover;
+	}
+	50% {
+		background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_V6mFemeVPo8fcVHGTvms7lL5F29XqXgyigLkFg7toNWjoZd52vQgWKQVfOgPGr25pbw&usqp=CAU);
+		background-size: cover;
+	}
+	75% {
+		background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThuwBI-mtAp6r3VqMqZmh_Dj-0zJJy0icSNwUtd2DQG1n28nPh3DlVNOzW2cpUQfipUPo&usqp=CAU);
+		background-size: cover;
+	}
+	100% {
+		background-image: url(https://www.globalgiving.org/pfil/5067/pict_large.jpg);
+		background-size: cover;
+	}
+}
+@keyframes examplefive {
+	0% {
+		background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn-hjyFOx1VCLvdyTFhl74wSEYaTbepTnIWiETinL3_H5x6KRrEiGW6rE0SpmH1Db_GCk&usqp=CAU);
+		background-size: cover;
+	}
+	25% {
+		background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdTmb35hNeQNiDoIerRz7rUffuTvRTvok09OXIrcFmSqt9cwdN58zHKhOr06y87_uPjp0&usqp=CAU);
+		background-size: cover;
+	}
+	50% {
+		background-image: url(https://d2e1hu1ktur9ur.cloudfront.net/wp-content/uploads/2022/05/KNR6777-1.jpg);
+		background-size: cover;
+	}
+	75% {
+		background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF1ltIpGGeGejcM5lJxmicC15q-NBgS1JQlx3z1X_KLEkrQAixO1f2IPf4sTffn2qiglA&usqp=CAU);
+		background-size: cover;
+	}
+	100% {
+		background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYh7VsgrQTaOP1DdnkToQpnSfMsEN78xnf0Q&s);
+		background-size: cover;
+	}
+}
+
+@keyframes examplesix {
+	0% {
+		background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA7y_zL9y1igNuBGBXmkGeLlffB8wLTBKypA&s);
+		background-size: cover;
+	}
+	25% {
+		background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-b6DuqTcEzMu1lo0-vmrMOJ1VjGKorpIK-Q&s);
+		background-size: cover;
+	}
+	50% {
+		background-image: url(https://www.shutterstock.com/image-photo/team-humanitarian-aid-volunteer-distributing-600nw-2396188107.jpg);
+		background-size: cover;
+	}
+	75% {
+		background-image: url(https://casa-india.org/frontend/image/humanitarian-banner-new.jpg);
+		background-size: cover;
+	}
+	100% {
+		background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS54ypbVGPRBOH4knZOMHxabdyOY6Vb9-y_U10Hgz87YuisD9Egvcd4E9VgenoL4-lRiH4&usqp=CAU);
+		background-size: cover;
+	}
+}
+@keyframes exampleseven {
+	0% {
+		background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwxJ69t-l2Xyovaok2CnoF9lRK6tx4CKtpeg&s);
+		background-size: cover;
+	}
+	25% {
+		background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG_CKE1k1-6sSpK9MPn_iUNviDyVADJCsuJQ&s);
+		background-size: cover;
+	}
+	50% {
+		background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU4y9en1HlRsFKHI6JRn-qAju6wCsxH1AG6g5XP4P4POMcz2-tgt85Iy7QsRl8uRnzQP0&usqp=CAU);
+		background-size: cover;
+	}
+	75% {
+		background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Pzx_Vdezs2GjuldRzpR3xTB4IyT8zISPt5f7Mp4rUPn_ek_4G7ztM98MC0Uj09o6GA0&usqp=CAU);
+		background-size: cover;
+	}
+	100% {
+		background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-VypKyhaIw3QYl4gnp3I9jGkQZ1vSolGKZkO0UWTsB-ji8sgknIpJD7VohhynXmsDiY0&usqp=CAU);
+		background-size: cover;
+	}
+}
+/* Lets make it responsive */
+@media screen and (max-width: 1024px) {
+	.works_details_box .detail_heading h2 {
+		font-size: 2rem;
+	}
+	.works_details_box .box p {
+		font-size: 1.2rem;
+	}
+	.our_works_main .heading {
+		height: 12vh;
+		width: 90vw;
+		font-size: 2.1rem;
+	}
+	.works_details_box {
+		margin-top: 0px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.works_details_box .detail_heading h2 {
+		position: relative;
+		top: 30px;
+		font-size: 1.7rem;
+	}
+	.works_details_box .box p {
+		font-size: 1rem;
+	}
+	.our_works_main .heading {
+		height: 10vh;
+		width: 90vw;
+		font-size: 1.9rem;
+	}
+	.works_details_box {
+		margin-top: 0px;
+	}
+}
+@media screen and (max-width: 666px) {
+	.works_details_box .detail_heading h2 {
+		position: relative;
+		top: 20px;
+		font-size: 1.5rem;
+	}
+	.works_details_box .box p {
+		font-size: 1rem;
+	}
+	.our_works_main .heading {
+		height: 10vh;
+		width: 90vw;
+		font-size: 1.5rem;
+	}
+	.works_details_box {
+		margin-top: 0px;
+	}
+}
+
+::-webkit-scrollbar {
+	width: 6px;
+	background-color: #111;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: rgb(115, 117, 117);
+	border-radius: 2rem;
+}
+/*new*/

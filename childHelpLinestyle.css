@@ -1,0 +1,310 @@
+@charset "UTF-8";	
+/*new*/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	background-image: url("https://www.shutterstock.com/image-vector/child-face-hands-baby-nurture-600nw-2498909321.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: azure;
+	overflow: scroll;
+	background-blend-mode: darken;
+}
+::-webkit-scrollbar {
+	width: 0px;
+}
+.childField input {
+	font-size: 1.5rem;
+	color: rgb(94, 37, 186);
+	border-radius: 12px;
+	border-right: 5px solid black;
+	border-bottom: 5px solid rgb(1, 0, 0);
+	/* opacity: 0.3; */
+	padding-left: 2vh;
+	background-color: rgb(240, 255, 255, 0.0701);
+}
+.childField input ::placeholder {
+	color: black;
+}
+
+form {
+	height: 100vh;
+	width: 100%;
+	justify-items: center;
+	margin-top: 5vh;
+	background-color: rgba(240, 255, 255, 0.844);
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.childField {
+	overflow: visible;
+	height: 230vh;
+	width: 60vw;
+	/* background-color: rgb(223, 223, 229); */
+	border: 5px solid;
+	border-radius: 15px;
+}
+
+.childField #second {
+	padding-top: 20px;
+	font-size: 2.5rem;
+	font-weight: 600;
+	text-align: center;
+	padding-bottom: 5px;
+}
+.childField .box1 {
+	height: 5%;
+	width: 100%;
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+}
+.childField label {
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+.childField .fnameBox,
+.childField .lnameBox {
+	height: 100%;
+	width: 40%;
+}
+
+.childField .fnameBox input {
+	height: 40%;
+	width: 100%;
+}
+.childField .lnameBox input {
+	height: 40%;
+	width: 100%;
+}
+/* Box2 */
+.childField .box2 {
+	height: 5%;
+	width: 100%;
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+}
+.childField .age,
+.childField .genderBox {
+	align-items: center;
+	height: 100%;
+	width: 40%;
+}
+.childField .age input {
+	height: 40%;
+	width: 100%;
+}
+/* .genderBox input{
+    height: 40%;
+    width: 100%;
+    background-c
+    olor: azure;
+} */
+.childField .genderBox p {
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+}
+/* Box3 */
+.childField .box3 {
+	height: 10%;
+	width: 100%;
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+}
+.childField .addressBox,
+.childField .phnoBox {
+	align-items: center;
+	height: 100%;
+	width: 40%;
+}
+.childField .addressBox input {
+	height: 70%;
+	width: 100%;
+}
+.childField .phnoBox input {
+	height: 20%;
+	width: 100%;
+}
+/* SituationBox */
+.childField .situationBox p {
+	font-size: 2.5rem;
+	margin-bottom: 10vh;
+	text-align: left;
+}
+.childField .situationBox {
+	height: 35%;
+	/* background-color: aqua; */
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+/* .childField .situation2,
+.childField .situation3,
+.childField .situation4  */
+.childField .situation1 {
+	height: 50%;
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.childField .situation1 input {
+	width: 100%;
+	height: 60%;
+}
+#brief1 {
+	height: 30vh;
+}
+/* ContactInfo */
+.childField .contactInfo {
+	height: 25%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.childField .contactInfo p {
+	font-size: 2.5rem;
+	margin-bottom: 20px;
+	text-align: left;
+}
+.childField .callernameBox,
+.childField .relationChild,
+.childField .phnEmail {
+	height: 40%;
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.childField .callernameBox input,
+.childField .relationChild input,
+.childField .phnEmail input {
+	width: 100%;
+	height: 60%;
+}
+.childField .phnEmail {
+	width: 100%;
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.childField .phnBox,
+.childField .emailBox {
+	height: 120%;
+	width: 40%;
+}
+.childField .emailBox input,
+.childField .phnBox input {
+	height: 40%;
+	width: 100%;
+}
+/* Optionala details */
+.childField .additionalInfo {
+	height: 7%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.childField .additionalInfo label {
+	font-size: 2.5rem;
+	text-align: left;
+}
+.childField .additionalInfo input {
+	width: 50%;
+	height: 100%;
+}
+.childField .lastbtn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.childField button {
+	width: 8rem;
+	height: 3.5rem;
+	border-radius: 6px;
+	background-color: rgb(49, 214, 49);
+	font-size: 1.8rem;
+	cursor: pointer;
+}
+/* Responsive code start */
+@media screen and (max-width: 1024px) {
+	.childField .genderBox p {
+		font-size: 1.2rem;
+		/* margin-bottom: 10px; */
+	}
+	.childField label {
+		font-size: 1.2rem;
+		font-weight: 500;
+	}
+	.childField #second {
+		font-size: 2rem;
+		font-weight: 600;
+	}
+	.childField .situationBox p {
+		font-size: 2rem;
+	}
+	.childField .contactInfo p {
+		font-size: 2rem;
+	}
+	.childField .additionalInfo label {
+		font-size: 2rem;
+	}
+	.childField button {
+		width: 6rem;
+		height: 2.5rem;
+		border-radius: 6px;
+		background-color: rgb(49, 214, 49);
+		font-size: 1.2rem;
+		cursor: pointer;
+	}
+}
+@media screen and (max-width: 768px) {
+	.childField .genderBox p {
+		font-size: 1rem;
+		/* margin-bottom: 10px; */
+	}
+	.childField label {
+		font-size: 1rem;
+		font-weight: 500;
+	}
+	.childField #second {
+		font-size: 1.6rem;
+		font-weight: 600;
+	}
+	.childField .situationBox p {
+		font-size: 1.6rem;
+	}
+	.childField .contactInfo p {
+		font-size: 1.6rem;
+	}
+	.childField .additionalInfo label {
+		font-size: 1.6rem;
+	}
+	.childField button {
+		width: 5rem;
+		height: 2rem;
+		border-radius: 6px;
+		background-color: rgb(49, 214, 49);
+		font-size: 1rem;
+		cursor: pointer;
+	}
+	.childField .additionalInfo input {
+		width: 50%;
+		height: 80%;
+	}
+}

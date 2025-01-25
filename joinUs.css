@@ -1,0 +1,774 @@
+/*                                      HEADER 1 */
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Noto+Sans+Mono:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Noto+Sans+Mono:wght@100..900&display=swap");
+
+* {
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+#header1 {
+	height: 15vh;
+	width: 100%;
+
+	position: sticky;
+}
+
+#header1 #head-top {
+	height: 5vh;
+	background-color: black;
+	display: flex;
+}
+
+/* Top Element Div  leftt*/
+#header1 #head-top .top-elements {
+	height: 100%;
+	width: 50%;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: aliceblue;
+
+	font-family: "Poppins", sans-serif;
+	font-size: 1.5vh;
+	gap: 2vh;
+}
+
+/* Top Element Div  Right*/
+#header1 #head-top .top-elements:nth-child(2) {
+	justify-content: flex-end;
+	padding: 0vh 10vh;
+	width: 25%;
+}
+#header1 #head-top .top-elements .top-icons {
+	height: 100%;
+	width: 6vh;
+	background-color: #111;
+	text-align: center;
+	align-content: center;
+	/* color: aqua; */
+	font-size: 2.6vh;
+}
+/* #header1 #head-top .top-elements #top-icon2{
+    color: rgb(17, 246, 17);
+    font-size: 3vh;
+}
+#header1 #head-top .top-elements #top-icon3{
+    color: rgb(175, 15, 177);
+    font-size: 3vh;
+}
+
+#header1 #head-top .top-elements #top-icon4{
+    color: rgb(251, 251, 251);
+    font-size: 3vh;
+}
+
+ */
+/* LOGIN & SIGNUP */
+#head-top .login-signup {
+	height: 100%;
+	width: 25%;
+	color: white;
+
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding-right: 2vh;
+	gap: 3vh;
+
+	font-size: 1.5vh;
+	font-family: "Poppins", sans-serif;
+}
+
+#head-top .login-signup a {
+	text-decoration: none;
+	color: aliceblue;
+}
+
+#head-top .login-signup a:hover {
+	color: aquamarine;
+	font-size: 1.55vh;
+}
+
+/*                           HEAD BUTTOM ELEMENTS */
+#head-buttom {
+	height: 10vh;
+	background-color: #111111f4;
+}
+/*         NAVIGATION                         */
+#head-buttom nav {
+	/* border-left: 2px solid white;
+    border-right: 2px solid white; */
+	height: 10vh;
+	margin: 0% 6rem;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	color: aliceblue;
+}
+nav #nav-logo {
+	width: 40vh;
+
+	height: 100%;
+
+	color: aliceblue;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+nav #nav-logo img {
+	height: 100%;
+}
+nav #logo-name {
+	text-align: center;
+	font-size: 2.6vh;
+	font-family: "Roboto", sans-serif;
+
+	text-transform: uppercase;
+}
+
+nav #logo-name span {
+	font-size: 1.5vh;
+	text-transform: capitalize;
+}
+nav #nav-logo #menu {
+	height: 100%;
+	align-content: center;
+	font-size: 3vh;
+	display: none;
+}
+/*           NAV CONTENTS               */
+
+nav #nav-contents {
+	/* border-left: 2px solid white; */
+
+	height: 100%;
+	width: 100vh;
+
+	font-size: 2.6vh;
+	font-family: "Barlow", sans-serif;
+
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+nav #nav-contents span {
+	border-left: 0.5px solid gray;
+	height: 50%;
+
+	align-content: center;
+	padding-left: 1vh;
+}
+
+nav #nav-contents span a {
+	color: rgba(159, 157, 157, 0.904);
+	text-decoration: none;
+	position: relative;
+}
+nav #nav-contents span a:hover {
+	color: rgba(104, 242, 130, 0.904);
+}
+nav #nav-contents span a::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -0.5vh;
+	height: 2px;
+	width: 0%;
+
+	transform: scaleX(0);
+	transition: all ease 0.5s;
+}
+nav #nav-contents span a:hover:after {
+	transform: scaleX(1);
+	width: 100%;
+	box-shadow: 0px 0.5px 0px rgba(12, 112, 112, 0.752);
+}
+
+nav #nav-contents #home {
+	border: none;
+}
+nav #nav-contents #home a {
+	color: rgb(57, 158, 247);
+}
+nav #nav-contents #home a:hover::after {
+	box-shadow: 0px 0px 0px;
+}
+
+/*                        DONATE NOW BUTTON   */
+nav button {
+	background-color: red;
+	color: aliceblue;
+	height: 6vh;
+	width: 22vh;
+	font-size: 2vh;
+	cursor: pointer;
+}
+nav button:hover {
+	transition: ease 1s;
+	background-color: rgb(10, 133, 86);
+}
+
+#navbar-menu {
+	display: none;
+}
+#navbar-menu span a {
+	color: aliceblue;
+	text-decoration: none;
+	font-size: 3vh;
+}
+
+@media screen and (max-width: 1300px) {
+	#head-buttom nav {
+		margin: 0% 5vh;
+		/* background-color: aqua; */
+	}
+}
+
+/* Header & Navbar*/
+#header2 {
+	margin-top: 0%;
+	height: 10vh;
+	width: 100%;
+	z-index: 999;
+	position: fixed;
+
+	top: 0%;
+	visibility: hidden;
+}
+
+#header2 nav {
+	font-family: "Poppins", sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	background-color: #111;
+
+	padding: 0vh 3vh;
+	height: 100%;
+	width: 100%;
+}
+#header2 nav a {
+	text-decoration: none;
+	text-transform: capitalize;
+	color: #ffffff;
+}
+#header2 nav #logo {
+	font-size: 2.6vh;
+	font-weight: 600;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	background-color: transparent;
+	mix-blend-mode: lighten;
+	width: 15rem;
+}
+#header2 nav #logo img {
+	height: 10vh;
+
+	object-fit: contain;
+
+	mix-blend-mode: multiply;
+	background-color: transparent;
+}
+input[type="checkbox"] {
+	appearance: none;
+	-webkit-appearance: none;
+}
+label {
+	display: none;
+	cursor: pointer;
+}
+ul {
+	list-style: none;
+	font-size: 2.6dvh;
+	display: flex;
+	gap: 1em;
+}
+ul a {
+	padding: 0.5em;
+}
+ul a:hover {
+	background-color: #0e4040;
+	border-radius: 0.5em;
+}
+/*.active {
+  border-bottom: 2px solid #ffffff;
+}*/
+@media screen and (max-width: 1000px) {
+	label {
+		display: block;
+	}
+	ul {
+		font-size: 1.2em;
+		position: absolute;
+		left: -100%;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		background-color: #333333;
+		gap: 2em;
+		top: 10vh;
+		width: 100%;
+		height: calc(100vh - 60px);
+		transition: 0.5s;
+		z-index: 999;
+	}
+
+	input[type="checkbox"]:checked ~ ul {
+		left: 0;
+	}
+	ul a:hover {
+		background-color: #0b7e56;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#header1 {
+		display: none;
+	}
+	#header2 {
+		visibility: visible;
+	}
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playpen+Sans:wght@100..800&display=swap"); /*"Montserrat", sans-serif;*/
+
+/*  Boiler Plate */
+* {
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+	text-align: center;
+
+	color: white;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	text-align: center;
+}
+
+/* Header 1 */
+
+/* ----------------------------------------------------------------- */
+              
+main{
+    height: fit-content;
+    width: 100%;
+}
+
+main .sec{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(39, 142, 233);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Log In*/
+main #sec1{
+    background-image: url(https://www.adanifoundation.org/-/media/Project/Foundation/Success-Stories/PGA-blog-pic/Banner.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.6);
+   
+}
+
+/*Sign Up*/
+main #sec2{
+    background-color: white;
+    background-image: url(https://th.bing.com/th/id/R.cecf868cbe7d618a392252b45e5111ba?rik=eT%2b1CaIvXOSXNw&riu=http%3a%2f%2fallume.com%2fwp-content%2fuploads%2f2013%2f10%2fmolnar_ethiopia-0370.jpg&ehk=%2fB2ohx4EW5MgonCYV9EYq47LK7NThINLeizUCkb49mo%3d&risl=&pid=ImgRaw&r=0);
+    filter: brightness(0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tab{
+    background-color: #1111118c;
+    border: solid 2px aqua;
+    border-radius: 2rem;
+    height: 53vh;
+    width: 55vh;
+    padding: 5vh;
+}
+
+main .input{
+  height: 4vh;
+  width: 35vh;
+  background-color: rgba(128, 128, 128, 0.685);
+  color: blue;
+  transition: 0.15s all ease;
+  border: #dadada solid 2px;
+  border-radius: 5px;
+  position: relative;
+  padding: 8px 10px;
+  font-size: 12px;
+}
+
+main .input:focus{
+  border-color: #080101;
+}
+
+main .input::placeholder{
+    color: #050505fb;
+}
+
+main .input:focus,
+main .input:not(:placeholder-shown){
+  background-color: rgb(240, 232, 232);
+  font-size: 15px;
+  color: #0e0404;
+}
+
+main a{
+    color: rgb(63, 177, 223);
+    text-decoration: none;
+}
+
+/*Log In, Sign Up, Admin button*/
+main .button{
+  height: 4vh;
+  width: 15vh;
+  background-color: rgb(10, 143, 10);
+  border: #01501f;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+main .sec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  /* flex-flow: column; */
+}  
+
+
+
+
+/*Choice class*/
+main .part {
+	background-image: linear-gradient(
+		to left bottom,
+		lightgreen,
+		green,
+		rgb(6, 172, 6)
+	);
+	background: url(https://media1.giphy.com/media/ekSKZzbeilhy5DKanm/source.gif);
+	filter: brightness(90%);
+	background-color: rgb(248, 248, 248);
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 90vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*Choice*/
+main #choice {
+	background-color: #404141ec;
+	border: solid 2px rgb(59, 193, 247);
+	border-radius: 2rem;
+	height: 35vh;
+	width: 64vh;
+	padding: 10vh;
+	box-shadow: 0px 0px 50px skyblue;
+	font-size: 3vh;
+
+	font-family: "Poppins", sans-serif;
+	font-weight: 200;
+}
+@media screen and (max-width: 600px) {
+	main #choice {
+		font-size: 2vh;
+	}
+}
+
+
+/*Choice button*/
+main button{
+  height: 5vh;
+  width: 15vh;
+  background-color: rgb(0, 70, 128);
+  border: #1c023d;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+main .part span{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+main .button:hover{
+  background-color: rgb(30, 207, 30);
+}
+
+main button:hover{
+  background-color: rgb(6, 114, 182);
+}
+
+
+ main #sec3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+/*All section div class*/
+main section .tab{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 
+
+/*Admin tab*/
+main #sec3 .tab{
+  background-color: rgba(9, 9, 153, 0.644);
+  border: solid 2px aqua;
+  box-shadow: 0px 0px 50px white;
+  border-radius: 2rem;
+  height: 47vh;
+  width: 55vh;
+  padding: 5vh;
+}
+
+main #sec3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+/*Admin*/
+main #sec3{
+  background-image: linear-gradient( to bottom right, rgb(9, 9, 163), rgb(86, 204, 243));
+}
+
+/*                   ALL SECTION HIDDEN                     */
+
+#sec1{
+  display: none;
+}
+#sec2{
+  display: none;
+}
+main #sec3{
+  display: none;
+} 
+
+
+
+@media screen and (max-width: 600px) {
+
+  main #choice{
+    height: 25vh;
+    width: 36vh;
+    padding: 5vh;
+  }
+
+   /*Choice button*/
+  main button{
+    height: 4.5vh;
+    width: 8vh;
+  }
+
+  .tab{
+    height: fit-content;
+    width: 33.5vh;
+    padding: 5vh;
+}
+
+main .input{
+  height: 3.5vh;
+  width: 23vh;
+  padding: 4px 5px;
+  font-size: 12px;
+}
+
+/*Admin tab*/
+main #sec3 .tab{
+  height: 38vh;
+  width: 33vh;
+  padding: 5vh;
+}
+
+/*Log In, Sign Up, Admin button*/
+main .button{
+  height: 4vh;
+  width: 11vh;
+}
+
+
+
+}
+
+/*notification of success */
+
+:root {
+	--dark: #34495e;
+	--light: #ffffff;
+	--success: #0abf30;
+}
+
+.notifications {
+	position: fixed;
+	top: 100px;
+	right: 20px;
+	z-index:1000;
+}
+.notifications :where(.toast, .column) {
+	display: flex;
+	align-items: center;
+}
+.notifications .toast {
+	width: 400px;
+	position: relative;
+	overflow: hidden;
+	list-style: none;
+	border-radius: 4px;
+	padding: 16px 17px;
+	margin-bottom: 10px;
+	background: var(--light);
+	justify-content: space-between;
+	animation: show_toast 0.3s ease forwards;
+	
+}
+@keyframes show_toast {
+	0% {
+		transform: translateX(100%);
+	}
+	40% {
+		transform: translateX(-5%);
+	}
+	80% {
+		transform: translateX(0%);
+	}
+	100% {
+		transform: translateX(-10px);
+	}
+}
+.notifications .toast.hide {
+	animation: hide_toast 0.3s ease forwards;
+}
+@keyframes hide_toast {
+	0% {
+		transform: translateX(-10px);
+	}
+	40% {
+		transform: translateX(0%);
+	}
+	80% {
+		transform: translateX(-5%);
+	}
+	100% {
+		transform: translateX(calc(100% + 20px));
+	}
+}
+.toast::before {
+	position: absolute;
+	content: "";
+	height: 3px;
+	width: 100%;
+	bottom: 0px;
+	left: 0px;
+	animation: progress 5s linear forwards;
+}
+@keyframes progress {
+	100% {
+		width: 0%;
+	}
+}
+.toast.success::before,
+.btn#success {
+	background: var(--success);
+}
+
+.toast .column i {
+	font-size: 1.75rem;
+}
+.toast.success .column i {
+	color: var(--success);
+}
+
+.toast .column span {
+	font-size: 1.07rem;
+	margin-left: 12px;
+}
+.toast i:last-child {
+	color: #aeb0d7;
+	cursor: pointer;
+}
+.toast i:last-child:hover {
+	color: var(--dark);
+}
+.buttons .btn {
+	border: none;
+	outline: none;
+	cursor: pointer;
+	margin: 0 5px;
+	color: var(--light);
+	font-size: 1.2rem;
+	padding: 10px 20px;
+	border-radius: 4px;
+}
+
+@media screen and (max-width: 530px) {
+	.notifications {
+		width: 95%;
+	}
+	.notifications .toast {
+		width: 100%;
+		font-size: 1rem;
+		margin-left: 20px;
+	}
+	.buttons .btn {
+		margin: 0 1px;
+		font-size: 1.1rem;
+		padding: 8px 15px;
+	}
+}
+
+::-webkit-scrollbar{
+  width: 6px;
+  background-color: #111;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: rgb(115, 117, 117);
+  border-radius: 2rem;
+}
